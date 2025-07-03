@@ -1,0 +1,30 @@
+{ "app": {
+   
+   "title": "Sample Lib",
+   "version": "0.0.0",
+   "supplier": "Open STEMware",
+   "copyright": "None",
+   "url": "https://github.com/cfs-apps/sample_lib",
+
+   "description": [
+      "App spec for NASA's Sample Lib. Basecamp's proxy_sample_lib",
+      "spec defines which version is used."
+   ],
+
+   "cfs": {
+      "cfe-type": "CFE_LIB",
+      "obj-file": "sample_lib",
+      "entry-symbol": "SAMPLE_LIB_Init",
+      "name": "SAMPLE_LIB",
+      "priority": 0,
+      "stack": 0,
+      "load_addr": 0,
+      "exception-action": 0,
+      "app-framework": "cfs",
+      "tables": []
+   },
+   
+   "requires": []
+
+}}
+
