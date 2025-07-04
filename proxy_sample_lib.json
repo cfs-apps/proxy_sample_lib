@@ -9,7 +9,7 @@
    "description": [
       "This is Basecamp proxy for NASA's Sample Lib. This repo augments",
       "the Sample Lib repo so Sample Lib can be integrated with Basecamp.",
-      "The 'cfs' and 'requires' JSON objects are contained in sample_lib.json"
+      "The 'cfs' and 'requires' JSON objects are populated in sample_lib.json"
    ],
 
    "proxy": {
@@ -20,5 +20,8 @@
          "CMakeLists.txt     >> CMakeLists.txt"
          ]
       }
-   }
+   },
+   
+   "cfs": {},
+   "requires": []
 }
