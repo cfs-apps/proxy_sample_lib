@@ -18,8 +18,7 @@
       "update-files": [
          "sample_lib.json    >> sample_lib.json",
          "CMakeLists.txt     >> CMakeLists.txt"
-      ],
-   },
-   
+      ]
+   }
 }}
 
