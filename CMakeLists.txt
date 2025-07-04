@@ -1,4 +1,5 @@
 project(CFE_SAMPLE_LIB C)
+# This file is from https://github.com/cfs-apps/proxy_sample_lib 
 
 # Create the app module
 add_cfe_app(sample_lib fsw/src/sample_lib.c)
